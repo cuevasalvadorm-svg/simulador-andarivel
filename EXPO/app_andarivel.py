@@ -28,7 +28,7 @@ with st.sidebar:
 st.subheader("Registrar Nuevo Viaje")
 col1, col2 = st.columns([2, 1])
 with col1:
-    carga_mineral = st.number_input("Peso del mineral a cargar (kg)", min_value=0.0, value=1000.0, step=50.0)
+    carga_mineral = st.number_input("Peso del mineral a cargar (kg)", min_value=0.0, value=250.0, step=50.0)
 with col2:
     ejecutar_viaje = st.button(" Iniciar Ciclo de Acarreo", use_container_width=True)
 if ejecutar_viaje:
