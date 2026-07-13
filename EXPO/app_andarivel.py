@@ -9,8 +9,8 @@ if 'toneladas' not in st.session_state:
     st.session_state.toneladas = 0.0
 if 'tiempo_total' not in st.session_state:
     st.session_state.tiempo_total = 0.0
-LIMITE_CARGA_KG = 1500
-PESO_TARA_KG = 250
+LIMITE_CARGA_KG = 500
+PESO_TARA_KG = 80
 G = 9.81
 FRICCION = 0.05
 EFICIENCIA_MOTOR = 0.85
